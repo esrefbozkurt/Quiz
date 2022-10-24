@@ -26,6 +26,7 @@ body {
   text-align: center;
   padding: 10px;
   background-color: antiquewhite;
+  border-radius: 3px;
 }
 .cards {
   width: 100%;
@@ -34,9 +35,10 @@ body {
   display: flex;
   height: 300px;
   border: 1px solid black;
-  padding: 10px;
+  padding: 20px;
   margin: 20px;
   flex-direction: column;
+  border-radius: 10px;
 }
 
 h2 {
@@ -46,35 +48,49 @@ h2 {
 }
 .tag {
   display: flex;
-  border: 1px solid red;
+  gap: 5px;
+  position: relative;
+  top: 40px;
 }
-.button {
-  position: absolute;
+p {
+  border: 1px solid black;
+  padding: 2px;
+  background-color: antiquewhite;
+  border-radius: 5px;
 }
+
+.show-answer {
+  width: 120px;
+  align-self: center;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 16px;
+}
+
 .answer {
-  display: flex;
+  /* display: flex;
   position: relative;
   height: 400px;
   border: 1px solid black;
   padding: 10px;
   margin: 20px;
-  flex-direction: column;
+  flex-direction: column; */
 }
 
 .bookmark {
   position: relative;
   height: 50px;
   width: 50px;
-  top: 0px;
-  left: 280px;
+  left: 270px;
 }
 
 footer {
   background-color: antiquewhite;
-  position: fixed;
+  position: sticky;
   padding: 10px;
   bottom: 0;
   width: 100%;
+  border-radius: 3px;
 }
 
 .navigation {
