@@ -34,7 +34,7 @@ body {
   display: flex;
   height: 300px;
   border: 1px solid black;
-  padding: 10px;
+  padding: 20px;
   margin: 20px;
   flex-direction: column;
 }
@@ -45,9 +45,20 @@ h2 {
   margin-bottom: 40px;
 }
 .tag {
+  display: flex;
+  gap: 5px;
+  position: relative;
+  top: 40px;
 }
-.button {
-  position: absolute;
+p {
+  border: 1px solid black;
+  padding: 2px;
+  background-color: antiquewhite;
+}
+
+.show-answer {
+  width: 100px;
+  align-self: center;
 }
 .answer {
   display: flex;
@@ -63,8 +74,7 @@ h2 {
   position: relative;
   height: 50px;
   width: 50px;
-  top: 0px;
-  left: 280px;
+  left: 270px;
 }
 
 footer {
