@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "Lato";
+  src: url(../Quiz/fonts/Lato/Lato-Regular.ttf);
+}
+* {
+  box-sizing: border-box;
+  font-family: "Lato";
+  margin: 0;
+  padding: 0;
+}
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  /* border: 2px dotted red; */
+}
+
+body {
+  border: 1px solid black;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+}
+
+.header {
+  text-align: center;
+  border: 1px solid black;
+}
+.card {
+  display: flex;
+  position: relative;
+  height: 300px;
+  width: 400px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 20px;
+  flex-direction: column;
+}
+
+.tag {
+}
+.button {
+  position: absolute;
+}
+.answer {
+  display: flex;
+  position: relative;
+  height: 400px;
+  width: 400px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 20px;
+  flex-direction: column;
+}
+
+.bookmark {
+  position: absolute;
+  height: 60px;
+  width: 30px;
+  padding: 0px;
+  -webkit-transform: rotate(0deg) skew(0deg);
+  transform: rotate(0deg) skew(0deg);
+  border-left: 25px solid black;
+  border-right: 25px solid black;
+  border-bottom: 25px solid transparent;
+  top: -30px;
+  right: 10px;
+}
+
+footer {
+  text-align: center;
+  border: 1px solid black;
+}
