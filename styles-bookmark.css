@@ -45,6 +45,7 @@ h2 {
   margin-bottom: 40px;
 }
 .tag {
+  display: flex;
 }
 .button {
   position: absolute;
@@ -90,7 +91,6 @@ footer {
   border: 1px solid black;
   background-color: antiquewhite;
   border-radius: 5px;
-  box-shadow: 10px 10px 30px #888888 inset;
 }
 .bookmark-page {
   display: flex;
@@ -101,6 +101,7 @@ footer {
   border: 1px solid black;
   background-color: antiquewhite;
   border-radius: 5px;
+  box-shadow: 10px 10px 30px #888888 inset;
 }
 
 .profile-page {
