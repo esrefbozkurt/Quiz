@@ -3,7 +3,6 @@
 }
 .quiz__card {
   display: flex;
-  height: 300px;
   border: 1px solid black;
   padding: 20px;
   margin: 20px;
@@ -20,15 +19,27 @@ h2 {
 .quiz__card-tag {
   display: flex;
   gap: 5px;
-  position: relative;
-  top: 40px;
 }
 
-p {
+.quiz__card-answer--hidden {
+  padding: 10px;
+  background-color: rgba(83, 129, 15, 0.1);
+  border-radius: 5px;
+  width: max-content;
+  margin-top: 30px;
+  font-size: 20px;
+  align-self: center;
+  font-style: oblique;
+  transition: height 0.2s ease;
+}
+
+.quiz__card-tag-text {
   border: 1px solid black;
   padding: 2px;
   background-color: antiquewhite;
   border-radius: 5px;
+  position: static;
+  margin-top: 40px;
 }
 
 .quiz__card-show-answer {
@@ -37,9 +48,10 @@ p {
   border-radius: 5px;
   padding: 8px;
   font-size: 16px;
+  cursor: pointer;
 }
 
-.answer {
+.quiz__card-active-answer {
   /* display: flex;
     position: relative;
     height: 400px;
@@ -50,8 +62,12 @@ p {
 }
 
 .quiz__card-bookmark {
-  position: relative;
   height: 50px;
   width: 50px;
-  left: 270px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
 }

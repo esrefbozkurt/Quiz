@@ -6,75 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz App</title>
     <link rel="stylesheet" href="/css/styles.css" />
+    <script src="./js/index.js" defer></script>
   </head>
   <body>
     <main>
       <header class="header">
-        <h1>Quiz App</h1>
+        <h1 class="header__title">Quiz App</h1>
       </header>
-      <section class="cards">
-        <article class="card">
-          <div class="bookmark">
+      <section class="quiz">
+        <article class="quiz__card">
+          <button
+            type="button"
+            class="quiz__card-bookmark"
+            onclick="addToBookmark"
+          >
             <img src="/assets/bookmark-gewählt.png" alt="bookmark" />
-          </div>
-          <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit?</h2>
-          <button type="button" class="show-answer">Show Answer</button>
-          <div class="tag">
-            <p>#html</p>
-            <p>#flexbox</p>
-            <p>#css</p>
+          </button>
+          <h2>What property flips the axes in flexbox?</h2>
+          <button type="button" class="quiz__card-show-answer">
+            Show Answer
+          </button>
+          <p class="quiz__card-answer--hidden">flex-direction</p>
+          <div class="quiz__card-tag">
+            <p class="quiz__card-tag-text">#html</p>
+            <p class="quiz__card-tag-text">#flexbox</p>
+            <p class="quiz__card-tag-text">#css</p>
           </div>
         </article>
 
-        <article class="card">
-          <div class="bookmark">
+        <article class="quiz__card">
+          <button
+            type="button"
+            class="quiz__card-bookmark"
+            onclick="addToBookmark"
+          >
             <img src="/assets/bookmark-gewählt.png" alt="bookmark" />
-          </div>
-          <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit?</h2>
-          <button type="button" class="show-answer">Show Answer</button>
-          <div class="tag">
-            <p>#html</p>
-            <p>#flexbox</p>
-            <p>#css</p>
+          </button>
+          <h2>What property flips the axes in flexbox?</h2>
+          <button type="button" class="quiz__card-show-answer">
+            Show Answer
+          </button>
+          <p class="quiz__card-answer--hidden">flex-direction</p>
+          <div class="quiz__card-tag">
+            <p class="quiz__card-tag-text">#html</p>
+            <p class="quiz__card-tag-text">#flexbox</p>
+            <p class="quiz__card-tag-text">#css</p>
           </div>
         </article>
 
-        <article class="card">
-          <div class="bookmark">
+        <article class="quiz__card">
+          <button
+            type="button"
+            class="quiz__card-bookmark"
+            onclick="addToBookmark"
+          >
             <img src="/assets/bookmark-gewählt.png" alt="bookmark" />
-          </div>
-          <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit?</h2>
-          <button type="button" class="show-answer">Show Answer</button>
-          <div class="tag">
-            <p>#html</p>
-            <p>#flexbox</p>
-            <p>#css</p>
-          </div>
-        </article>
-
-        <article class="card">
-          <div class="bookmark">
-            <img src="/assets/bookmark-gewählt.png" alt="bookmark" />
-          </div>
-          <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit?</h2>
-          <button type="button" class="show-answer">Show Answer</button>
-          <div class="tag">
-            <p>#html</p>
-            <p>#flexbox</p>
-            <p>#css</p>
-          </div>
-        </article>
-
-        <article class="card">
-          <div class="bookmark">
-            <img src="/assets/bookmark-gewählt.png" alt="bookmark" />
-          </div>
-          <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit?</h2>
-          <button type="button" class="show-answer">Show Answer</button>
-          <div class="tag">
-            <p>#html</p>
-            <p>#flexbox</p>
-            <p>#css</p>
+          </button>
+          <h2>What property flips the axes in flexbox?</h2>
+          <button type="button" class="quiz__card-show-answer">
+            Show Answer
+          </button>
+          <p class="quiz__card-answer--hidden">flex-direction</p>
+          <div class="quiz__card-tag">
+            <p class="quiz__card-tag-text">#html</p>
+            <p class="quiz__card-tag-text">#flexbox</p>
+            <p class="quiz__card-tag-text">#css</p>
           </div>
         </article>
       </section>
