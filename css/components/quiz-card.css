@@ -1,7 +1,7 @@
-.cards {
+.quiz {
   width: 100%;
 }
-.card {
+.quiz__card {
   display: flex;
   height: 300px;
   border: 1px solid black;
@@ -17,7 +17,7 @@ h2 {
   margin-bottom: 40px;
 }
 
-.tag {
+.quiz__card-tag {
   display: flex;
   gap: 5px;
   position: relative;
@@ -31,7 +31,7 @@ p {
   border-radius: 5px;
 }
 
-.show-answer {
+.quiz__card-show-answer {
   width: 120px;
   align-self: center;
   border-radius: 5px;
@@ -39,7 +39,7 @@ p {
   font-size: 16px;
 }
 
-. .answer {
+.answer {
   /* display: flex;
     position: relative;
     height: 400px;
@@ -49,7 +49,7 @@ p {
     flex-direction: column; */
 }
 
-.bookmark {
+.quiz__card-bookmark {
   position: relative;
   height: 50px;
   width: 50px;
