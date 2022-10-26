@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Lato";
+  src: url(../assets/fonts/Lato/Lato-Regular.ttf);
+}
+* {
+  box-sizing: border-box;
+  font-family: "Lato";
+  margin: 0;
+  padding: 0;
+}
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 70px;
+}
