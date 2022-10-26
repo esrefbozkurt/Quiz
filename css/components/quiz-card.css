@@ -36,7 +36,7 @@ h2 {
 .quiz__card-tag-text {
   border: 1px solid black;
   padding: 2px;
-  background-color: antiquewhite;
+  background-color: rgb(250, 235, 215, 0.3);
   border-radius: 5px;
   position: static;
   margin-top: 40px;
