@@ -16,12 +16,28 @@
       <section class="addquestion">
         <form data-js="form">
           <fieldset>
-            <legend>Add Questioncards!</legend>
-            <label for="headline">Headline:</label>
-            <input type="text" name="headline" id="headline" />
-            <label for="task">Task:</label>
-            <input type="text" name="task" id="task" />
-            <button type="submit">Add Todo!</button>
+            <label for="headline">Your question:</label>
+            <textarea
+              type="text"
+              name="your-question"
+              id="your-question"
+              class="textarea"
+            ></textarea>
+            <label for="task">Your answer:</label>
+            <textarea
+              type="text"
+              name="your-answer"
+              id="your-answer"
+              class="textarea"
+            ></textarea>
+            <label for="task">Tag:</label>
+            <input
+              type="text"
+              name="your-tag"
+              id="your-tag"
+              class="your-tag"
+            ></input>
+            <button type="submit" class="submit-button" data-js="submit-button">Submit</button>
           </fieldset>
         </form>
         <ul data-js="todoList"></ul>
