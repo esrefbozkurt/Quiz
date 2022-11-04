@@ -25,3 +25,8 @@ body {
 main {
   display: block;
 }
+
+.dark {
+  background-color: black;
+  color: white;
+}
