@@ -2,12 +2,18 @@
 
 //Dark-mode
 
-//const bodyElement = document.querySelector('[data-js="body"]');
+const bodyElement = document.querySelector('[data-js="body"]');
 
+const nightIcon = document.querySelector('[data-js="nighticon"]');
+const darkIcon = document.querySelector('[ data-js="darkicon"]');
 const darkModeButton = document.querySelector('[data-js="dark-mode-button"]');
+
 darkModeButton.addEventListener("click", () => {
-  document.body.classList.toggle("dark");
+  bodyElement.classList.toggle("dark");
+  nightIcon.classList.toggle("hidden");
+  darkIcon.classList.toggle("hidden");
 });
+
 //   console.log('switch to dark mode');
 // });
 

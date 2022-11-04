@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <script src="./js/index.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <header class="header">
+        <h1 class="header__title">Quiz App</h1>
+      </header>
+      <section class="addquestion">
+        <form data-js="form">
+          <fieldset>
+            <legend>Add Questioncards!</legend>
+            <label for="headline">Headline:</label>
+            <input type="text" name="headline" id="headline" />
+            <label for="task">Task:</label>
+            <input type="text" name="task" id="task" />
+            <button type="submit">Add Todo!</button>
+          </fieldset>
+        </form>
+        <ul data-js="todoList"></ul>
+      </section>
+    </main>
+    <footer>
+      <nav class="navigation">
+        <a type="button" href="/index.html" class="navigation__home-default"
+          ><img src="/assets/Icon_Esref_leer.png" alt="homepage_filled"
+        /></a>
+        <a
+          type="button"
+          href="/index-bookmark.html"
+          class="navigation__bookmark-default"
+          ><img src="/assets/bookmark-default.png" alt="bookmark"
+        /></a>
+
+        <a
+          type="button"
+          href="/form.html"
+          class="navigation__addquestion-active"
+          ><img src="/assets/icons8-plus-2-50 (1).png" alt="addquestion-filled"
+        /></a>
+
+        <a
+          type="button"
+          href="/index-user_profile.html"
+          class="navigation__profile-default"
+        >
+          <img src="/assets/user-default.png" alt="homepage_filled" />
+        </a>
+      </nav>
+    </footer>
+  </body>
+</html>

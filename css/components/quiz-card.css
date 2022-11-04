@@ -51,8 +51,8 @@ h2 {
   font-size: 16px;
   cursor: pointer;
   background-color: white;
-  transition: ease-in-out 0.4s background-color, ease-in-out 0.4s color,
-    ease-in-out 0.4s box-shadow;
+  transition: ease-in-out 0.2s background-color, ease-in-out 0.2s color,
+    ease-in-out 0.2s box-shadow;
 }
 
 .show-answer-button:hover {

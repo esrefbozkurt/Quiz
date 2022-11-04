@@ -1,5 +1,5 @@
 footer {
-  background-color: whitesmoke;
+  background-color: rgb(128, 128, 128, 1);
   position: fixed;
   padding: 10px;
   bottom: 0;
@@ -21,7 +21,7 @@ footer {
   border: 1px solid black;
   background-color: whitesmoke;
   border-radius: 5px;
-  box-shadow: 10px 10px 30px black inset;
+  box-shadow: 10px 10px 30px gray inset;
 }
 
 .navigation__home-default {
@@ -55,7 +55,7 @@ footer {
   border: 1px solid black;
   background-color: whitesmoke;
   border-radius: 5px;
-  box-shadow: 10px 10px 30px black inset;
+  box-shadow: 10px 10px 30px gray inset;
 }
 
 .navigation__profile-default {
@@ -78,5 +78,28 @@ footer {
   border: 1px solid black;
   background-color: whitesmoke;
   border-radius: 5px;
-  box-shadow: 10px 10px 30px black inset;
+  box-shadow: 10px 10px 30px gray inset;
+}
+
+.navigation__addquestion-default {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+  gap: 5px;
+  border: 1px solid black;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+
+.navigation__addquestion-active {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+  gap: 5px;
+  border: 1px solid black;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  box-shadow: 10px 10px 30px gray inset;
 }

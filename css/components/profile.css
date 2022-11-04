@@ -34,7 +34,12 @@
 .dark-mode-toggle {
   border: none;
   background-color: transparent;
+  cursor: pointer;
 }
 .dark-mode-button {
   height: 50px;
+  border-radius: 50%;
+}
+.dark-mode-button:hover {
+  box-shadow: 2px 2px 7px 10px white;
 }
