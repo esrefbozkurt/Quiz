@@ -1,4 +1,3 @@
-console.clear();
 //Dark-mode
 
 const nightIcon = document.querySelector('[data-js="nighticon"]');

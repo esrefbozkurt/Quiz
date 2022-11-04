@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz App</title>
     <link rel="stylesheet" href="/css/styles.css" />
-    <script src="./js/index.js" defer></script>
+    <script src="./js/profile.js" defer></script>
   </head>
   <body>
     <main>
@@ -22,6 +22,7 @@
               name="your-question"
               id="your-question"
               class="textarea"
+              data-js="your-question"
             ></textarea>
             <label for="task">Your answer:</label>
             <textarea
@@ -29,6 +30,7 @@
               name="your-answer"
               id="your-answer"
               class="textarea"
+              data-js="your-answer"
             ></textarea>
             <label for="task">Tag:</label>
             <input
@@ -36,6 +38,7 @@
               name="your-tag"
               id="your-tag"
               class="your-tag"
+              data-js="your-tag"
             ></input>
             <button type="submit" class="submit-button" data-js="submit-button">Submit</button>
           </fieldset>
