@@ -1,21 +1,4 @@
-// console.clear();
-
-//Dark-mode
-
-const bodyElement = document.querySelector('[data-js="body"]');
-
-const nightIcon = document.querySelector('[data-js="nighticon"]');
-const darkIcon = document.querySelector('[ data-js="darkicon"]');
-const darkModeButton = document.querySelector('[data-js="dark-mode-button"]');
-
-darkModeButton.addEventListener("click", () => {
-  bodyElement.classList.toggle("dark");
-  nightIcon.classList.toggle("hidden");
-  darkIcon.classList.toggle("hidden");
-});
-
-//   console.log('switch to dark mode');
-// });
+console.clear();
 
 // const lightModeButton = document.querySelector('[data-js="light-mode-button"]');
 // lightModeButton.addEventListener('click', () => {
