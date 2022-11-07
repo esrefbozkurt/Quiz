@@ -54,7 +54,7 @@ h2 {
     ease-in-out 0.2s box-shadow;
 }
 
-.show-answer-button:hover {
+.show-answer-button:active {
   background-color: black;
   color: white;
   box-shadow: 2px 2px 7px 10px rgba(0, 0, 0, 0.54);
