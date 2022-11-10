@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <script src="./js/form.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <header class="header">
+        <h1 class="header__title">Quiz App</h1>
+      </header>
+      <section class="addquestion">
+        <form data-js="form">
+          <fieldset>
+            <label for="headline">Your question:</label>
+            <textarea
+              type="text"
+              name="your-question"
+              id="your-question"
+              class="textarea"
+              data-js="your-question"
+            ></textarea>
+            <label for="task">Your answer:</label>
+            <textarea
+              type="text"
+              name="your-answer"
+              id="your-answer"
+              class="textarea"
+              data-js="your-answer"
+            ></textarea>
+            <label for="task">Tag:</label>
+            <input
+              type="text"
+              name="your-tag"
+              id="your-tag"
+              class="your-tag"
+              data-js="your-tag"
+            ></input>
+            <button type="submit" class="submit-button" data-js="submit-button">Submit</button>
+          </fieldset>
+        </form>
+        <ul data-js="todoList"></ul>
+      </section>
+    </main>
+    <footer>
+      <nav class="navigation">
+        <a type="button" href="/index.html" class="navigation__home-default"
+          ><img src="/assets/Icon_Esref_leer.png" alt="homepage_filled"
+        /></a>
+        <a
+          type="button"
+          href="/index-bookmark.html"
+          class="navigation__bookmark-default"
+          ><img src="/assets/bookmark-default.png" alt="bookmark"
+        /></a>
+
+        <a
+          type="button"
+          href="/form.html"
+          class="navigation__addquestion-active"
+          ><img src="/assets/icons8-plus-2-50 (1).png" alt="addquestion-filled"
+        /></a>
+
+        <a
+          type="button"
+          href="/index-user_profile.html"
+          class="navigation__profile-default"
+        >
+          <img src="/assets/user-default.png" alt="homepage_filled" />
+        </a>
+      </nav>
+    </footer>
+  </body>
+</html>

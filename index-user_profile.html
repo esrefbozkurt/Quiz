@@ -6,28 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz App</title>
     <link rel="stylesheet" href="/css/styles.css" />
-    <script src="./js/index.js" defer></script>
+    <script src="./js/profile.js" defer></script>
   </head>
   <body data-js="body">
     <main>
-      <main>
-        <header class="header">
-          <h1 class="header__title">Quiz App</h1>
-        </header>
-      <section>
-        <h3>Dark Mode Example</h3>
-        
-        <button class="button button--toggle" data-js="toggle-button">
-          Toggle Mode
-        </button>
-      </section>
+      <header class="header">
+        <h1 class="header__title">Quiz App</h1>
+      </header>
+      <article class="profile">
+        <img
+          class="profile__img"
+          src="/assets/Screenshot 2022-11-03 at 17.00.55.png"
+          alt="that's me"
+          id="esref"
+        />
+        <h3 class="profile__name">Esref Bozkurt</h3>
+      </article>
+      <article class="profile-aboutme">
+        <span>
+          <h4>About me</h4>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Praesentium maxime modi ipsa
+          </p>
+        </span>
+      </article>
+      <article class="profile-settings">
+        <span>
+          <h4>Settings</h4>
+          <div class="darkmode-style">
+            <p>Dark Mode Example</p>
+
+            <button
+              type="button"
+              class="dark-mode-toggle"
+              data-js="dark-mode-button"
+            >
+              <img
+                src="/assets/icons8-night-mode-67.png"
+                alt="darkmode"
+                class="dark-mode-button"
+                data-js="nighticon"
+              />
+              <img
+                src="/assets/icons8-dark-mode-67.png"
+                alt="darkmode"
+                class="dark-mode-button hidden"
+                data-js="darkicon"
+              />
+            </button>
+          </div>
+        </span>
+      </article>
     </main>
     <footer>
       <nav class="navigation">
-        <a
-          type="button"
-          href="/index.html"
-          class="navigation__home-default"
+        <a type="button" href="/index.html" class="navigation__home-default"
           ><img src="/assets/Icon_Esref_leer.png" alt="homepage_filled"
         /></a>
         <a
@@ -36,6 +70,14 @@
           class="navigation__bookmark-default"
           ><img src="/assets/bookmark-default.png" alt="bookmark"
         /></a>
+
+        <a
+          type="button"
+          href="/form.html"
+          class="navigation__addquestion-default"
+          ><img src="/assets/icons8-plus-2-50.png" alt="addquestion-filled"
+        /></a>
+
         <a
           type="button"
           href="/index-user_profile.html"

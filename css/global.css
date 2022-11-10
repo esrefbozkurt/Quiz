@@ -21,3 +21,12 @@ body {
   flex-direction: column;
   margin-bottom: 70px;
 }
+
+main {
+  display: block;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}

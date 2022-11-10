@@ -18,15 +18,32 @@
           <button
             type="button"
             class="quiz__card-bookmark"
-            onclick="addToBookmark"
+            data-js="bookmark-button"
           >
-            <img src="/assets/bookmark-default.png" alt="bookmark" />
+            <img
+              src="/assets/bookmark-default.png"
+              alt="bookmark"
+              class="bookmark__button-active"
+              data-js="bookmark-unfilled"
+            />
+            <img
+              src="/assets/bookmark-gewählt.png"
+              alt="bookmark"
+              class="hidden"
+              data-js="bookmark-filled"
+            />
           </button>
           <h2>What property flips the axes in flexbox?</h2>
-          <button type="button" class="quiz__card-show-answer">
+          <button
+            type="button"
+            class="show-answer-button"
+            data-js="show-answer-button"
+          >
             Show Answer
           </button>
-          <p class="quiz__card-answer--hidden">flex-direction</p>
+          <p class="quiz__card-answer hidden" data-js="show-answer">
+            flex-direction
+          </p>
           <div class="quiz__card-tag">
             <p class="quiz__card-tag-text">#html</p>
             <p class="quiz__card-tag-text">#flexbox</p>
@@ -78,9 +95,14 @@
           <button
             type="button"
             class="quiz__card-bookmark"
-            onclick="addToBookmark"
+            data-js="bookmark-button"
           >
-            <img src="/assets/bookmark-default.png" alt="bookmark" />
+            <img
+              src="/assets/bookmark-default.png"
+              alt="bookmark"
+              class="bookmark__button-unfilled-active"
+              data-js="bookmark-unfilled"
+            />
           </button>
           <h2>What property flips the axes in flexbox?</h2>
           <button type="button" class="quiz__card-show-answer">
@@ -97,14 +119,7 @@
     </main>
     <footer>
       <nav class="navigation">
-<<<<<<< HEAD
-        <a
-          type="button"
-          href="/index-homepage.html"
-          class="navigation__home-active"
-=======
         <a type="button" href="/index.html" class="navigation__home-active"
->>>>>>> main
           ><img src="/assets/Icon_Esref_gefüllt.png" alt="homepage_filled"
         /></a>
         <a
@@ -113,6 +128,14 @@
           class="navigation__bookmark-default"
           ><img src="/assets/bookmark-default.png" alt="bookmark"
         /></a>
+
+        <a
+          type="button"
+          href="/form.html"
+          class="navigation__addquestion-default"
+          ><img src="/assets/icons8-plus-2-50.png" alt="addquestion-filled"
+        /></a>
+
         <a
           type="button"
           href="/index-user_profile.html"

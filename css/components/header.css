@@ -1,6 +1,5 @@
 .header__title {
   text-align: center;
   padding: 10px;
-  background-color: antiquewhite;
-  border-radius: 3px;
+  background-color: rgb(128, 128, 128, 1);
 }

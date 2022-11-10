@@ -7,7 +7,7 @@
   padding: 20px;
   margin: 20px;
   flex-direction: column;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 h2 {
@@ -21,9 +21,9 @@ h2 {
   gap: 5px;
 }
 
-.quiz__card-answer--hidden {
+.quiz__card-answer {
   padding: 10px;
-  background-color: rgba(83, 129, 15, 0.1);
+  background-color: rgb(169, 201, 159, 0.5);
   border-radius: 5px;
   width: max-content;
   margin-top: 30px;
@@ -36,33 +36,28 @@ h2 {
 .quiz__card-tag-text {
   border: 1px solid black;
   padding: 2px;
-<<<<<<< HEAD
   background-color: rgb(250, 235, 215, 0.3);
-=======
-  background-color: antiquewhite;
->>>>>>> main
   border-radius: 5px;
   position: static;
   margin-top: 40px;
 }
 
-.quiz__card-show-answer {
+.show-answer-button {
   width: 120px;
   align-self: center;
   border-radius: 5px;
   padding: 8px;
   font-size: 16px;
   cursor: pointer;
+  background-color: white;
+  transition: ease-in-out 0.2s background-color, ease-in-out 0.2s color,
+    ease-in-out 0.2s box-shadow;
 }
 
-.quiz__card-active-answer {
-  /* display: flex;
-    position: relative;
-    height: 400px;
-    border: 1px solid black;
-    padding: 10px;
-    margin: 20px;
-    flex-direction: column; */
+.show-answer-button:active {
+  background-color: black;
+  color: white;
+  box-shadow: 2px 2px 7px 10px rgba(0, 0, 0, 0.54);
 }
 
 .quiz__card-bookmark {
@@ -74,4 +69,8 @@ h2 {
   display: flex;
   flex-direction: row;
   align-self: flex-end;
+}
+
+.hidden {
+  display: none;
 }

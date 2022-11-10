@@ -1,0 +1,36 @@
+.addquestion {
+  display: flex;
+
+  padding: 20px;
+  margin: 20px;
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: rgb(169, 201, 159, 0.5);
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  border: none;
+}
+
+.textarea {
+  height: 100px;
+  width: 100%;
+}
+
+.your-tag {
+  height: 2em;
+}
+
+.submit-button {
+  width: 120px;
+  align-self: center;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: white;
+}
